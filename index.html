@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Fundas-xiaomi</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div>
+            <h1 class="titulo">Fundas-xiaomi</h1>
+        </div>
+        <div class="header">
+            <nav class="header__nav navbar navbar-expand-lg navbar-light container-fluid">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="header__nav__boton nav-item"><a nav-link href="./index.html">Inicio</a></li>
+                            <li class="header__nav__boton nav-item"><a nav-link href="./paginas/tienda.html">Tienda</a>
+                            </li>
+                            <li class="header__nav__boton nav-item"><a nav-link href="#ofertas">Ofertas</a></li>
+                            <li class="header__nav__boton nav-item"><a nav-link
+                                    href="./paginas/carrito.html">Carrito</a></li>
+                        </ul>
+                        <ul class="header__lista navbar-nav">
+                            <li class="header__lista__nav-dos nav-item"><a nav-link
+                                    href="./paginas/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="header__lista__nav-dos nav-item"><a nav-link
+                                    href="./paginas/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <div class="index">
+            <!-- hero -->
+            <section class="hero">
+                <div class="hero__texto">
+                    <h2>Hermosas fundas para tu celular</h2>
+                    <h3>Envios a domicilio</h3>
+                </div>
+                <div class="ver-mas">
+                    <a href="#mini-tienda">Ver más</a>
+                </div>
+            </section>
+            <!-- Menu lateral -->
+            <section class="menu">
+                <form action="">
+                    <div class="tienda__menu__titulo">
+                        <h3>Linea de Xiaomi</h3>
+                    </div>
+                    <div class="tienda__menu__form">
+                        <div class="tienda__menu__form__labels">
+                            <label for="mi">Mi</label>
+                            <input type="radio" name="linea" value="mi" id="mi">
+                        </div>
+                        <div class="tienda__menu__form__labels">
+                            <label for="poco">Poco</label>
+                            <input type="radio" name="linea" value="poco" id="poco">
+                        </div>
+                        <div class="tienda__menu__form__labels">
+                            <label for="redmi">Redmi</label>
+                            <input type="radio" name="linea" value="redmi" id="redmi">
+                        </div>
+                    </div>
+                    <div class="tienda__menu__titulo">
+                        <h3>Color</h3>
+                    </div>
+                    <div class="tienda__menu__form">
+                        <div class="tienda__menu__form__labels">
+                            <label for="rojo">Rojo</label>
+                            <input type="radio" name="color" value="rojo" id="rojo">
+                        </div>
+                        <div class="tienda__menu__form__labels">
+                            <label for="azul">Azul</label>
+                            <input type="radio" name="color" value="azul" id="azul">
+                        </div>
+                        <div class="tienda__menu__form__labels">
+                            <label for="azul-marino">Azul Marino</label>
+                            <input type="radio" name="color" value="azul_marino" id="azul-marino">
+                        </div>
+                        <div class="tienda__menu__form__labels">
+                            <label for="marron">Marron</label>
+                            <input type="radio" name="color" value="marron" id="marron">
+                        </div>
+                        <div class="tienda__menu__form__labels">
+                            <label for="blanco">Blanco</label>
+                            <input type="radio" name="color" value="blanco" id="blanco">
+                        </div>
+                        <div class="tienda__menu__form__labels">
+                            <label for="negro">Negro</label>
+                            <input type="radio" name="color" value="negro" id="negro">
+                        </div>
+                        <div class="tienda__menu__form__labels">
+                            <label for="verde">Verde</label>
+                            <input type="radio" name="color" value="verde" id="verde">
+                        </div>
+                        <div class="tienda__menu__form__labels">
+                            <label for="rosa">Rosa</label>
+                            <input type="radio" name="color" value="rosa" id="rosa">
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <!-- ventana de tienda -->
+            <section class="mini-tienda" id="mini-tienda">
+                <div>
+                    <h2 class="titulo__tienda">Echa un vistazo</h2>
+                </div>
+                <div class="productos">
+                    <article class="productos__tarjeta--index">
+                        <a href="./paginas/tienda.html">
+                            <img src="./assets/img/fundami11tpro.jpg" alt="funda_mi_11_t_pro"
+                                class="productos__tarjeta__img">
+                            <h3 class="productos__tarjeta__titulo">Fundas Mi 11t pro</h3>
+                        </a>
+                    </article>
+                    <article class="productos__tarjeta--index">
+                        <a href="./paginas/tienda.html">
+                            <img src="./assets/img/fundaredminote10.jpg" alt="funda_redmi_note_10"
+                                class="productos__tarjeta__img">
+                            <h3 class="productos__tarjeta__titulo">Fundas Redmi Note 10pro</h3>
+                        </a>
+                    </article>
+                    <article class="productos__tarjeta--index">
+                        <a href="./paginas/tienda.html">
+                            <img src="./assets/img/fundapocox4pro5g.jpg" alt="funda_poco_x4_pro_5g"
+                                class="productos__tarjeta__img">
+                            <h3 class="productos__tarjeta__titulo">Funda Poco x4 pro 5g</h3>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <!-- Oferta -->
+            <section id="ofertas"
+                class="oferta container shadow-lg p-3 mb-5 bg-body rounded-pill border border-3 border-dark">
+                <div class="titulo__oferta">
+                    <h2>Ofertas!</h2>
+                    <h3>20% OFF</h3>
+                </div>
+                <div class="productos__oferta">
+                    <article class="productos__tarjeta">
+                        <a href="./paginas/tienda.html">
+                            <img src="./assets/img/fundaofertami11.jpg" alt="funda_poco_x3_pro"
+                                class="productos__tarjeta__img oferta__img">
+                            <h3 class="productos__tarjeta__titulo">Funda Mi 11</h3>
+                        </a>
+                    </article>
+                    <article class="productos__tarjeta">
+                        <a href="./paginas/tienda.html">
+                            <img src="./assets/img/fundaofertapoco.jpg" alt="funda_poco_x3_pro"
+                                class="productos__tarjeta__img oferta__img">
+                            <h3 class="productos__tarjeta__titulo">Funda Poco x3 pro</h3>
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer__texto">
+            <p>Esta página, su contenido e imágenes son propiedad de la marca Fundas-xiaomi & su desarrollador. <br>
+                Todos
+                los derechos reservados©</p>
+        </div>
+        <div class="footer__redes">
+            <h6 class="footer__redes__titulo">Seguinos en nuestras redes</h6>
+            <ul class="footer__redes__lista">
+                <li><a href="https://www.instagram.com/xiaomi.argentina.oficial/?hl=es" target="_blank">Instagram</a>
+                </li>
+                <li><a href="https://www.facebook.com/XiaomiArgentinaOficial/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/Xiaomi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                        target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
