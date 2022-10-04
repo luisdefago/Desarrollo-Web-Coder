@@ -1,0 +1,13 @@
+// Grid Index
+
+.index {
+    @include tablet-desktop {
+    display: grid;
+    grid-template-columns: 20vw 1fr;
+    grid-template-areas:
+        "hero hero"
+        "menu mini-tienda"
+        "oferta oferta"
+    ;
+    }
+}

@@ -1,0 +1,19 @@
+// Media queries
+
+@mixin header-desktop {
+    @media(min-width: 992px) {
+        @content
+    }
+}
+
+@mixin carrito-tablet {
+    @media(min-width: 480px) {
+        @content
+    }
+}
+
+@mixin tablet-desktop {
+    @media(min-width: 768px) {
+        @content
+    }
+}

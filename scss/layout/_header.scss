@@ -1,0 +1,31 @@
+header {
+    background: rgb(0, 42, 164);
+    background: linear-gradient(201deg, $color-secundario 0%, $color-primario 54%);
+    position: sticky;
+    padding: 2px;
+    top: -43px;
+}
+
+.header {
+    display: flex;
+
+    @include header-desktop {
+        &__nav {
+            display: inline-block;
+            margin-left: 2rem;
+        }
+
+        &__lista {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: 2rem;
+        }
+    }
+}
+
+.titulo {
+    max-width: max-content;
+    margin: 0 auto 0.5rem auto;
+    font-size: xx-large;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.tienda {
+    display: flex;
+    background-color: #f5f5df;
+}
+
+.productos--tienda {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5vh 3vw;
+}

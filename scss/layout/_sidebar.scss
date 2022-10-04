@@ -1,0 +1,38 @@
+.tienda__menu {
+    border-right: solid black;
+    background-color: #ffffff;
+
+    &__titulo {
+        &>h3 {
+            font-size: medium;
+        }
+    }
+
+    &__form {
+        &__labels {
+            font-size: small;
+        }
+    }
+
+    @include tablet-desktop {
+    &__titulo {
+        font-size: larger;
+        width: 10rem;
+        padding-top: 00.5rem;
+        padding-bottom: 1rem;
+        margin: 0 1.5rem 0;
+        &>h3 {
+            font-size: x-large;
+        }
+    }
+    &__form {
+        max-width: fit-content;
+        &__labels {
+            padding-bottom: 0.6rem;
+            max-width: fit-content;
+            margin-left: 1.5rem;
+            font-size: medium;
+        }
+    }
+    }
+}

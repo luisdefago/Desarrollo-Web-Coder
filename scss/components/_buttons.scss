@@ -1,0 +1,54 @@
+%boton-molde {
+    display: inline-block;
+    max-width: 10vw;
+    border: solid black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: 1rem;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: white;
+        border: white;
+    }
+}
+
+
+.header {
+    @include header-desktop {
+        &__nav__boton {
+            display: inline-block;
+            max-width: 10vw;
+            border: solid black;
+            border-radius: 1rem;
+            padding: 0.5rem;
+            margin-left: auto;
+            margin-right: 1rem;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: white;
+                border: white;
+            }
+        }
+    }
+
+    @include header-desktop {
+        &__lista__nav-dos {
+            @extend .header__nav__boton;
+        }
+    }
+}
+
+
+.ver-mas {
+    border: solid black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    &:hover {
+        transform: rotate(90deg);
+    }
+}

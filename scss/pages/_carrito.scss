@@ -1,0 +1,33 @@
+.carrito {
+    margin: 10vh auto 35vh;
+
+    &__titulos {
+        padding: 0.3rem;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: xx-small;
+
+        @include carrito-tablet {
+            font-size: small;
+        }
+
+        @include tablet-desktop {
+            font-size: larger;
+        }
+    }
+
+    &__contenido>h3 {
+        font-size: xx-small;
+
+        @include tablet-desktop {
+            font-size: larger;
+        }
+    }
+}
+
+td {
+    border: solid rgb(0, 0, 0);
+    padding: 0.3rem;
+    max-width: fit-content;
+    text-align: center;
+}
