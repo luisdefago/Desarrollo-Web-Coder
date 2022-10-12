@@ -445,10 +445,16 @@ footer {
   background-color: rgb(204, 226, 252);
   border-left: solid black 0.5mm;
   border-right: solid black 0.5mm;
-  max-width: 60%;
+  min-width: fit-content;
+  max-width: fit-content;
   min-height: 80vh;
   margin: 0vh auto;
   padding-top: 10vh;
+}
+@media (min-width: 768px) {
+  .contenedor-carrito {
+    padding: 10vh 10vw;
+  }
 }
 
 .carrito {
