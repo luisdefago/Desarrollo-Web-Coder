@@ -10,7 +10,7 @@
 
     &:hover {
         background-color: white;
-        border: white;
+        border: none;
     }
 }
 
@@ -29,7 +29,7 @@
 
             &:hover {
                 background-color: white;
-                border: white;
+                border: none;
             }
         }
     }
@@ -50,5 +50,7 @@
     transition-duration: 0.5s;
     &:hover {
         transform: rotate(90deg);
+        background-color: white;
+        border: none;
     }
 }

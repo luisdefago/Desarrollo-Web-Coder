@@ -1,28 +1,48 @@
 .tienda__menu {
     border-right: solid black;
     background-color: #ffffff;
+    min-width: 25%;
+    max-width: 25%;
+    @include tablet-desktop {
+        max-width: 20%;
+        min-width: 20%;
+    }
 
     &__titulo {
         &>h3 {
-            font-size: medium;
+            font-size: 1.1rem;
+            padding: 00.5rem;
         }
     }
 
     &__form {
         &__labels {
-            font-size: small;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
         }
+    }
+
+    @include tablet {
+    &__titulo>h3 {
+        font-size: 1.5rem;
+        padding: 0.7rem;
+    }
+
+    &__form{
+        &__labels {
+            font-size: 1rem;
+        }
+    }
     }
 
     @include tablet-desktop {
     &__titulo {
-        font-size: larger;
         width: 10rem;
         padding-top: 00.5rem;
         padding-bottom: 1rem;
         margin: 0 1.5rem 0;
         &>h3 {
-            font-size: x-large;
+            font-size: 1.8rem;
         }
     }
     &__form {
@@ -31,7 +51,7 @@
             padding-bottom: 0.6rem;
             max-width: fit-content;
             margin-left: 1.5rem;
-            font-size: medium;
+            font-size: 1.2rem;
         }
     }
     }

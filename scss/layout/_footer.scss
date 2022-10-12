@@ -1,5 +1,4 @@
 footer {
-    margin-top: 20vh;
     background-color: $color-primario;
     display: flex;
 }
@@ -7,7 +6,7 @@ footer {
 .footer {
     &__texto {
         padding: 2rem;
-        font-size: medium;
+        font-size: 1rem;
     }
 
     &__redes {
@@ -17,11 +16,11 @@ footer {
         padding: 2rem 0;
 
         &__titulo {
-            font-size: medium;
+            font-size: 1.1rem;
         }
 
         &__lista {
-            font-size: medium;
+            font-size: 1rem;
         }
     }
 }

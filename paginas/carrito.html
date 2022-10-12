@@ -69,78 +69,118 @@
     </header>
     <!-- Main -->
     <main>
-        <div>
-            <section>
-                <table class="carrito">
-                    <tr>
-                        <th>
-                            <h2 class="carrito__titulos">Productos</h2>
-                        </th>
-                        <th>
-                            <h2 class="carrito__titulos">Cantidad</h2>
-                        </th>
-                        <th>
-                            <h2 class="carrito__titulos">Precio</h2>
-                        </th>
-                        <th>
-                            <h2 class="carrito__titulos">Subtotal</h2>
-                        </th>
-                        <th>
-                            <h2 class="carrito__titulos">Precio final</h2>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td class="carrito__contenido">
-                            <h3>Funda Mi 12 ultra</h3>
-                        </td>
-                        <td class="carrito__contenido">
-                            <h3>
-                                <form><input type="number" min="1"></form>
-                            </h3>
-                        </td>
-                        <td class="carrito__contenido">
-                            <h3>..$</h3>
-                        </td>
-                        <td class="carrito__contenido">
-                            <h3>..$</h3>
-                        </td>
-                        <td class="carrito__contenido"></td>
-                    </tr>
-                    <tr>
-                        <td class="carrito__contenido">
-                            <h3>Funda Poco F3</h3>
-                        </td>
-                        <td class="carrito__contenido">
-                            <h3>
-                                <form><input type="number" min="1"></form>
-                            </h3>
-                        </td>
-                        <td class="carrito__contenido">
-                            <h3>..$</h3>
-                        </td>
-                        <td class="carrito__contenido">
-                            <h3>..$</h3>
-                        </td>
-                        <td class="carrito__contenido"></td>
-                    </tr>
-                    <tr>
-                        <td class="carrito__contenido"></td>
-                        <td class="carrito__contenido"></td>
-                        <td class="carrito__contenido"></td>
-                        <td class="carrito__contenido"></td>
-                        <td class="carrito__contenido">
-                            <h3>..$</h3>
-                        </td>
-                    </tr>
-                </table>
-            </section>
-        </div>
+        <section class="contenedor-carrito">
+            <table class="carrito">
+                <tr>
+                    <th>
+                        <h2 class="carrito__titulos">Productos</h2>
+                    </th>
+                    <th>
+                        <h2 class="carrito__titulos">Cantidad</h2>
+                    </th>
+                    <th>
+                        <h2 class="carrito__titulos">Precio</h2>
+                    </th>
+                    <th>
+                        <h2 class="carrito__titulos">Subtotal</h2>
+                    </th>
+                    <th>
+                        <h2 class="carrito__titulos">Precio final</h2>
+                    </th>
+                </tr>
+                <tr>
+                    <td class="carrito__contenido">
+                        <h3>Funda Mi 12 ultra</h3>
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>
+                            <form><input type="number" value="1" min="0"></form>
+                        </span>
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>$500</span>
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>$500</span>
+                    </td>
+                    <td class="carrito__contenido"></td>
+                </tr>
+                <tr>
+                    <td class="carrito__contenido">
+                        <h3>Funda Poco F3</h3>
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>
+                            <form><input type="number" value="1" min="0"></form>
+                        </span>
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>$500</span>
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>$500</span>
+                    </td>
+                    <td class="carrito__contenido"></td>
+                </tr>
+                <tr>
+                    <td class="carrito__contenido">
+                        <h3>Funda Redmi Note 10 pro</h3>
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>
+                            <form><input type="number" value="2" min="0"></form>
+                        </span>
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>$500</span>
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>$1000</span>
+                    </td>
+                    <td class="carrito__contenido"></td>
+                </tr>
+                <tr>
+                    <td class="carrito__contenido">
+                        <h3>Funda Mi 11 Roja</h3>
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>
+                            <form><input type="number" value="4" min="0"></form>
+                        </span>
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>$400</span>
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>$1200</span>
+                    </td>
+                    <td class="carrito__contenido"></td>
+                </tr>
+                <tr>
+                    <td class="carrito__contenido">
+                    </td>
+                    <td class="carrito__contenido">
+                    </td>
+                    <td class="carrito__contenido">
+                    </td>
+                    <td class="carrito__contenido">
+                    </td>
+                    <td class="carrito__contenido">
+                        <span>$3200</span>
+                    </td>
+                </tr>
+            </table>
+        </section>
     </main>
     <footer>
         <div class="footer__texto">
-            <p>Esta página, su contenido e imágenes son propiedad de la marca Fundas-xiaomi & su desarrollador. <br>
+            <span>Esta página, su contenido e imágenes son propiedad de la marca Fundas-xiaomi &
+                su
+                desarrollador.</span>
+            <span>
                 Todos
-                los derechos reservados©</p>
+                los derechos reservados©
+            </span>
         </div>
         <div class="footer__redes">
             <h6 class="footer__redes__titulo">Seguinos en nuestras redes</h6>

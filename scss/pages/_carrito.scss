@@ -1,32 +1,62 @@
+
+.contenedor-carrito {
+    background-color: rgb(204, 226, 252);
+    border-left: solid black 0.5mm;
+    border-right: solid black 0.5mm;
+    max-width: 60%;
+    min-height: 80vh;
+    margin: 00vh auto;
+    padding-top: 10vh;
+}
+
 .carrito {
-    margin: 10vh auto 35vh;
+    margin: 0vh auto;
+    border: solid black 0.5mm;
+    background-color: white;
 
     &__titulos {
         padding: 0.3rem;
         text-transform: uppercase;
         text-align: center;
-        font-size: xx-small;
+        font-size: 0.56rem;
 
-        @include carrito-tablet {
-            font-size: small;
+        @include tablet {
+            font-size: 0.8rem;
         }
 
         @include tablet-desktop {
-            font-size: larger;
+            font-size: 1.15rem;
         }
     }
 
-    &__contenido>h3 {
-        font-size: xx-small;
+    &__contenido {
+        &>span {
+            font-size: 0.6rem;
 
-        @include tablet-desktop {
-            font-size: larger;
+            @include tablet {
+                font-size: 1rem;
+            }
+
+            @include tablet-desktop {
+                font-size: 1.15rem;
+            }
+        }
+        &>h3 {
+            font-size: 0.6rem;
+
+            @include tablet {
+                font-size: 1rem;
+            }
+
+            @include tablet-desktop {
+                font-size: 1.15rem;
+            }
         }
     }
 }
 
 td {
-    border: solid rgb(0, 0, 0);
+    border: solid rgb(0, 0, 0) 0.3mm;
     padding: 0.3rem;
     max-width: fit-content;
     text-align: center;

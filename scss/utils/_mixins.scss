@@ -2,18 +2,18 @@
 
 @mixin header-desktop {
     @media(min-width: 992px) {
-        @content
+        @content ;
     }
 }
 
-@mixin carrito-tablet {
+@mixin tablet {
     @media(min-width: 480px) {
-        @content
+        @content ;
     }
 }
 
 @mixin tablet-desktop {
     @media(min-width: 768px) {
-        @content
+        @content ;
     }
 }
